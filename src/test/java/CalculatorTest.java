@@ -6,19 +6,15 @@
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-/**
- *
- * @author nirajbhandari
- */
 public class CalculatorTest {
 
     @Test
     public void testAdd() {
-        assertEquals(5, 2 + 3);
+        assertEquals(5, 2 + 3, "2 + 3 should equal 5");
     }
 
     @Test
     public void testSubtract() {
-        assertEquals(2, 5 - 3);
+        assertEquals(2, 5 - 3, "5 - 3 should equal 2");
     }
 }
